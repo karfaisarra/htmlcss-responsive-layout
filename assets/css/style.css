@@ -85,6 +85,10 @@ section{
     background-color: aqua;
     
 }
+.debug .call_to_action .container{
+    height: 300px;
+    background-color:aquamarine;
+}
 
 /*header*/
 
@@ -107,7 +111,9 @@ header nav{
 .benefits{
     background-color: var(--bg_primary);
 }
-
+.call_to_action{
+    background-color: var(--bg_primary);
+}
 
 /*Responsive*/
 @media screen and (min-width: 768px) {
