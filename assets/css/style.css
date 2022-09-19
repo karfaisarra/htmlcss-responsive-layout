@@ -13,3 +13,26 @@
     --bg_darker: #000000;
     --bg_yellow: #FDC15F;
 }
+/*utilities*/
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.d-flex{
+    display: flex;
+}
+header{
+    background-color: var(--bg_secondary);
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+/*debug*/
+
+
+
+
