@@ -14,6 +14,10 @@
     --bg_yellow: #FDC15F;
 }
 /*utilities*/
+section{
+    margin: 3rem 0;
+    padding: 3rem 0;
+}
 .container{
     width: 80%;
     margin: 0 auto;
@@ -22,17 +26,78 @@
 .d-flex{
     display: flex;
 }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -2rem;
+
+}
+.col-1{
+    width: calc(100% / 12 * 1);
+}
+.col-2{
+    width: calc(100% / 12 * 2);
+}
+.col-3{
+    width: calc(100% / 12 * 3);
+}
+.col-4{
+    width: calc(100% / 12 * 4);
+}
+.col-5{
+    width: calc(100% / 12 * 5);
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: calc(100% / 12 * 7);
+}
+.col-8{
+    width: calc(100% / 12 * 8);
+}
+.col-9{
+    width: calc(100% / 12 * 9);
+}
+.col-10{
+    width: calc(100% / 12 * 10);
+}
+.col-11{
+    width: calc(100% / 12 * 11);
+}
+.col-12{
+    width: 100%;
+}
+
+/*debug*/
+.debug [class^="col-"]{
+    height: 200px;
+    border: 1px solid black;
+    padding: 2rem;
+}
+
+/*header*/
+
 header{
     background-color: var(--bg_secondary);
 }
 header nav{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 1.5rem 0;
 }
-/*debug*/
+
+/*main*/
+.planning{
+    background-color: var(--bg_primary)
+}
 
 
 
-
+/*Rsponsive*/
+@media screen and (max-width: 768px) {
+    
+}
+@media screen and (min-width:1200px) {
+    
+}
