@@ -75,6 +75,16 @@ section{
     border: 1px solid black;
     padding: 2rem;
 }
+.debug .partners .heading, .debug .partners .partner{
+    height: 200px;
+    background-color: gainsboro;
+    border: 1px solid black;
+}
+.debug .partner .avatar{
+    width: 200px;
+    background-color: aqua;
+    
+}
 
 /*header*/
 
@@ -91,13 +101,31 @@ header nav{
 .planning{
     background-color: var(--bg_primary)
 }
-
-
-
-/*Rsponsive*/
-@media screen and (max-width: 768px) {
-    
+.partner{
+    display: flex;
 }
-@media screen and (min-width:1200px) {
-    
+.benefits{
+    background-color: var(--bg_primary);
+}
+
+
+/*Responsive*/
+@media screen and (min-width: 768px) {
+    .col_md_4{
+        width: calc(100% / 12 * 4);
+    }
+    .col_md_6{
+        width: 50%;
+    }
+    .col_md_8{
+        width: calc(100% / 12 * 8);
+    }
+}
+@media screen and (min-width: 1200px) {
+    .col_lg_4{
+        width: calc(100% / 12 * 4);
+    }
+    .col_lg_6{
+        width: 50% ;
+    }
 }
