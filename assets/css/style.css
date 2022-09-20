@@ -19,8 +19,8 @@ body{
 }
 /*utilities*/
 section{
-    margin: 3rem 0;
-    padding: 3rem 0;
+    margin: 2rem 0;
+    padding: 2rem 0;
 }
 a{
     text-decoration:none ;
@@ -43,6 +43,11 @@ a{
     color: var(--bg_light);
 }
 
+.btn_primary{
+    background-color: var(--bg_primary);
+    color: var(--bg_light);
+    padding: 0.5rem 3rem;
+}
 .d-flex{
     display: flex;
     justify-content:space-between ;
@@ -95,16 +100,9 @@ a{
 
 /*debug*/
 
-.debug .partners .heading, .debug .partners .partner{
-    height: 200px;
-    background-color: gainsboro;
-    border: 1px solid black;
-}
-.debug .partner .avatar{
-    width: 200px;
-    background-color: aqua;
-    
-}
+
+
+
 .debug .call_to_action .container{
     height: 300px;
     background-color:aquamarine;
@@ -251,13 +249,74 @@ header .menu li{
 /*partners*/
 .partner{
     display: flex;
+    background-color: var(--bg_primary);
+    border-radius:25px ;
+    margin: 2rem 0 1rem 0;
 }
+.partners .heading{
+    text-align: center;
+}
+.partners .heading small{
+    font-size: 16px;
+    margin-top: -2rem;
+}
+.partners .heading h2{
+    font-size: 35px;
+    padding: 2rem 0;
+    color: var(--bg_primary);
+}
+.partners .partner .avatar {
+    padding: 1rem;
+}
+.partners .partner .avatar img{
 
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.partners .partner .bio .part_1{
+    padding: 3rem 2rem 1rem 2rem ;
+    color: var(--bg_light);
+}
+.partners .partner .bio .part_2{
+    padding: 0 2rem 1rem 2rem ;
+    color: var(--bg_light);
+}
 /*benefits*/
 .benefits{
     background-color: var(--bg_primary);
 }
-
+.benefits h2{
+    text-align: center;
+    color: var(--bg_light);
+    padding: 2rem 0;
+    font-size: 30px;
+}
+.box{
+    background-color: var(--bg_light);
+    border-radius:  20px;
+}
+.benefits .box .text_box{
+    padding: 1.5rem;
+}
+.benefits .box .text_box h1{
+    padding: 1rem 0;
+    font-size: 40px;
+    color: var(--bg_primary);
+}
+.benefits .box .text_box h4{
+    padding: 1rem 0;
+    font-size: 25px;
+    color: var(--bg_primary);
+}
+.benefits .box .text_box p{
+    padding-bottom: 2rem ;
+    color: var(--light_gray);
+}
+.benefits .box .text_box .btn_more{
+    padding-bottom: 1rem ;
+}
 /*about*/
 
 /*call_to_action*/
