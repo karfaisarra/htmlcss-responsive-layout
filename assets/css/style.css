@@ -97,12 +97,6 @@ a{
 .col-12{
     width: 100%;
 }
-
-/*debug*/
-
-.debug footer {
-    height: 200px;
-}
 /*header*/
 
 header{
@@ -382,12 +376,29 @@ header .menu li{
 .call_to_action_container .btn_all_to_action{
     padding-bottom: 2rem;
 }
+.call_to_action_container i{
+    font-size: 5px;
+}
+.call_to_action_container .underline{
+    text-decoration: underline;
+}
 /*footer*/
 footer{
     background-color: var(--bg_dark);
     margin-top:-3rem ;
 }
-
+footer .container{
+    text-align: center;
+    color: var(--bg_light);
+    padding: 3rem 0;
+}
+footer .container .p_padding{
+    padding-bottom: 4rem;
+}
+footer .container .footer_color{
+    color: var(--bg_primary);
+    text-decoration:underline;
+}
 /*Responsive*/
 @media screen and (min-width: 768px) {
     .col_md_4{
