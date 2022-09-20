@@ -100,13 +100,6 @@ a{
 
 /*debug*/
 
-
-
-
-.debug .call_to_action .container{
-    height: 300px;
-    background-color:aquamarine;
-}
 .debug footer {
     height: 200px;
 }
@@ -360,7 +353,35 @@ header .menu li{
 .call_to_action{
     background-color: var(--bg_primary);
 }
-
+.call_to_action_container{
+    text-align: center;
+}
+.get_started {
+    font-size: 18px;
+    color: #5a6e7f;
+}
+.call_to_action_container h2{
+    font-size:30px ;
+    color: var(--bg_light);
+    padding: 1rem 0;
+}
+.call_to_action_container h1{
+    font-size:40px ;
+    color: var(--bg_yellow);
+    padding: 2rem 0;
+}
+.call_to_action_container p{
+    color: var(--bg_light);
+    padding-bottom: 2rem;
+    line-height: 30px;
+}
+.call_to_action_container .btn_all_to_action .btn_light{
+    color: var(--bg_primary);
+    padding: 1rem 3rem;
+}
+.call_to_action_container .btn_all_to_action{
+    padding-bottom: 2rem;
+}
 /*footer*/
 footer{
     background-color: var(--bg_dark);
