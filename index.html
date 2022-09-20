@@ -5,10 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rsponsive-Layout</title>
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!--font awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body class="">
+<body class="debug">
     <header id="site_header">
         <div class="container">
             <nav>
@@ -17,12 +22,15 @@
                 </div>
                 <div class="menu">
                     <ul>
-                        <li><a href="#">Planning</a></li>
-                        <li><a href="#">Testimonials</a></li>
-                        <li><a href="#">Features</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li class="btn_light" >Get Started</li>
+                        <li><a href="#" class="menu_color">Planning</a></li>
+                        <li><a href="#" class="menu_color">Testimonials</a></li>
+                        <li><a href="#" class="menu_color">Features</a></li>
+                        <li><a href="#" class="menu_color">About Us</a></li>
+                        <li ><a href="#"class="btn btn_light" >Get Started</a></li>
                     </ul>
+                </div>
+                <div class="mobile_menu">
+                    <i class="fa-solid fa-bars"></i>
                 </div>
             </nav>
         </div>
@@ -33,41 +41,108 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col_md_8 ">
-                        <div class="bg_secondary_soft d-flex">
+                        <div class="card d-flex">
                             <div class="text">
                                 <h4>Get a demo application</h4>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. distinctio velit excepturi dolor quas porro incidunt rem obcaecati voluptatum culpa nostrum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis assumenda et odit consectetur perspiciatis ut dolorum dolores libero deleniti, placeat laborum incidunt eveniet iste tenetur quibusdam. Voluptatem corrupti perspiciatis alias!</p>
-                                <div class="btn_secondary"><a href="#"><i class="fa-brands fa-apple"></i> App Store</a></div>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio alias quod nulla quia voluptates doloribus laboriosam? Corrupti delectus adipisci qui voluptas unde commodi iure laudantium?</p>
+                                <a href="#" class="btn btn_secondary"><i class="fa-brands fa-apple"></i> App Store</a>
                             </div>
                             <div class="image">
                                 <img src="./assets/img/phone.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col_md_4 bg_secondary_soft">
-                        <div class="icons">
-                            <div class="icon">
-                                <i class="fa-solid fa-file-code"></i>
+                    <div class="col-12 col_md_4 ">
+                        <div class="card">
+                            <div class="icons">
+                                <div class="icon">
+                                    <i class="fa-solid fa-file-code"></i>
+                                </div>
+                                <div class="info">
+                                    Clear Code
+                                </div>
                             </div>
-                            <div class="info">
-                                Clear Code
+                            <div class="icons_text">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste voluptas quo magni quisquam accusamus ducimus facilis ab est nam dolorem excepturi, quibusdam quis! Fugit, deleniti.</p>
                             </div>
-                        </div>
-                        <div class="icons_text">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, voluptate.</p>
                         </div>
                     </div>
-                    <div class="col-12 col_md_4 bg_secondary_soft"></div>
-                    <div class="col-12 col_md_4 bg_secondary_soft"></div>
-                    <div class="col-12 col_md_4 bg_secondary_soft"></div>
+                    <div class="col-12 col_md_4 ">
+                        <div class="card">
+                            <div class="icons">
+                                <div class="icon">
+                                    <i class="fa-solid fa-compass-drafting"></i>
+                                </div>
+                                <div class="info">
+                                    Web Design
+                                </div>
+                            </div>
+                            <div class="icons_text">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste voluptas quo magni quisquam accusamus ducimus facilis ab est nam dolorem excepturi, quibusdam quis! Fugit, deleniti.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col_md_4 ">
+                        <div class="card">
+                            <div class="icons">
+                                <div class="icon">
+                                    <i class="fa-solid fa-laptop-code"></i>
+                                </div>
+                                <div class="info">
+                                    Developement
+                                </div>
+                            </div>
+                            <div class="icons_text">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste voluptas quo magni quisquam accusamus ducimus facilis ab est nam dolorem excepturi, quibusdam quis! Fugit, deleniti.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col_md_4 ">
+                        <div class="card">
+                            <div class="icons">
+                                <div class="icon">
+                                    <i class="fa-solid fa-volume-low"></i>
+                                </div>
+                                <div class="info">
+                                    Branding
+                                </div>
+                            </div>
+                            <div class="icons_text">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste voluptas quo magni quisquam accusamus ducimus facilis ab est nam dolorem excepturi, quibusdam quis! Fugit, deleniti.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
         <section class="planning">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col_lg_6"></div>
-                    <div class="col-12 col_lg_6"></div>
+                    <div class="col-12 col_lg_6 ">
+                        <div class="cont">
+                            <div class="img_planning ">
+                                <img src="./assets/img/planning1.png" alt="">
+                            </div>
+                            <div class="text_planning">
+                                <h3>Strategic Planning</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse qui molestiae suscipit eius, debitis officiis accusamus obcaecati velit autem, temporibus quisquam ex doloribus perferendis commodi!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col_lg_6">
+                        <div class="mini_container ">
+                            <div class="img_planning2 ">
+                                <img src="./assets/img/planning2.png" alt="">
+                            </div>
+                            <div class="text_planning2">
+                                <h3>App Development</h3>
+                                <p>Develop an on-demoand app for your delivery buisness to reach your targeted customers without any interruption.</p>
+                            </div>
+                            <div class="circl_arrow">
+                                <i class="fa-solid fa-arrow-down-long"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
